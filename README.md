@@ -10,6 +10,7 @@ Another difference between this code and the original code is that we wanted to 
 
 ## **Code Performance**
 	The time difference between the original DQ analysis code and the refactored code can be explained as follows: the raw time it took to perform both analyses initially was about the same. However, the refactored code includes more steps and runs through much more information (12 times as much to be exact). The code now looks like the following.
+
 `Dim tickers(12) As String
 tickers(0) =
 tickers(1) =
