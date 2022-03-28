@@ -29,5 +29,5 @@ tickers(11) =`
 
 ## **Results**
 The code refactoring was successful, with the program executing the expanded code in the same amount of time. The code was only expanded to the extent required which contributed to the success of the refactor. 
-Regarding the stocks themselves, it seems 2017 was a much better year for this series of stocks than 2018, and the young man should consider investing his money in other stocks. ![This is an image][Second_Run_Screenshot.png]
+Regarding the stocks themselves, it seems 2017 was a much better year for this series of stocks than 2018, and the young man should consider investing his money in other stocks. ![Second_Run_Screenshot.png]
 
