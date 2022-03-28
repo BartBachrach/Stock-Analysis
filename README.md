@@ -9,7 +9,7 @@ One of the blocks of code that needed to be refactored was the array declaring t
 Another difference between this code and the original code is that we wanted to know three things about the stocks: starting prices, ending prices, as well as the total volume on the stocks (how many times they were traded during that year). We needed the starting and ending prices because the difference between the starting and ending prices would give us their annual return, adding another level of insight into their performance. 
 
 ## **Code Performance**
-	The time difference between the original DQ analysis code and the refactored code can be explained as follows: the raw time it took to perform both analyses initially was about the same. However, the refactored code includes more steps and runs through much more information (12 times as much to be exact). The code now looks like:
+	The time difference between the original DQ analysis code and the refactored code can be explained as follows: the raw time it took to perform both analyses initially was about the same. However, the refactored code includes more steps and runs through much more information (12 times as much to be exact). The code now looks like the following.
 `Dim tickers(12) As String
 tickers(0) =
 tickers(1) =
